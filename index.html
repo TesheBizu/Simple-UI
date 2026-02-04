@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex justify-center items-center h-screen bg-[url('https://images.pexels.com/photos/247600/pexels-photo-247600.jpeg')] bg-cover bg-center bg-no-repeat">
+    <div class="w-96 h-50 py-10 px-6 bg-transparent rounded-[20px] shadow-[0_0_10px_2px_rgba(255,255,255,0.2)] backdrop-blur-[5px]">
+        <h1 class="text-3xl text-center font-extrabold font-serif text-blue-900">login</h1>
+        <div class="flex flex-col gap-5 mt-4 mb-6">
+            <input class="w-full h-10 color-black pl-4 py-2 bg-transparent text-1xl text-black-900 border border-white rounded-full outline-none placeholder-white" type="text" placeholder="Username" required>
+            <input class="w-full h-10 color-black pl-4 py-2 bg-transparent text-1xl text-black-900 border border-white rounded-full outline-none placeholder-white" type="password" placeholder="Password" required>
+        </div>
+        <div class="flex justify-between mb-4 text-white">
+            <label><input type="checkbox">Remember Me</label>
+            <a href="#" class="font-bold hover:text-black hover:underline">Forgot Password?</a>
+        </div>
+        <button class="w-full h-10 text-center bg-white font-bold rounded-full hover:bg-blue-900 hover:text-white"type="submit">Login</button><br/>
+        <div class="flex justify-center mt-4 text-white">
+            <p class="text-black">Don't have an account?</p> <a class="ml-2 font-bold hover:text-black hover:underline"href="#">Sign Up</a>
+        </div>
+    </div>
+</body>
+</html>
